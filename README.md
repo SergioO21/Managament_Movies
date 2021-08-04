@@ -1,6 +1,6 @@
 # PLD JS Classes - Objects
 
-[Notion original](https://magnetic-myrtle-0ac.notion.site/PLD-JS-Classes-Objects-d1b11e0b75ba4b57ba7cd139bd5ddb0b)
+[Original Notion](https://magnetic-myrtle-0ac.notion.site/PLD-JS-Classes-Objects-d1b11e0b75ba4b57ba7cd139bd5ddb0b)
 
 Build a small Movies application which will allow us to create a list of movies, delete them and display the entries..all this is done using 2 classes and objects.
 

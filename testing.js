@@ -7,10 +7,10 @@ const Movies = store.Movies;
 const defaultMovies = store.defaultMovies;
 
 const Manager = new MoviesManager();
-new Movies('Jurassic Park', 'Sergio Orejarena', '1990');
-new Movies('The Dead Pool', 'Mathew Albinson', '2014');
-new Movies('Phineas y Ferb', 'Duvan Rodelo', '2021');
-new Movies('Guillame Terror', 'Jaime Blanco', '2018');
+let movie1 = new Movies('Jurassic Park', 'Sergio Orejarena', '1990');
+let movie2 = new Movies('The Dead Pool', 'Mathew Albinson', '2014');
+let movie3 = new Movies('Phineas y Ferb', 'Duvan Rodelo', '2021');
+let movie4 = new Movies('Guillame Terror', 'Jaime Blanco', '2018');
 console.log('==================== ALL MOVIES ====================\n');
 console.log(defaultMovies);
 
@@ -20,10 +20,10 @@ console.log('==================== ALL MOVIES ====================\n');
 console.log(defaultMovies);
 
 console.log('------------------------------------------------------------');
-new Movies('Jurassic Park', 'Sergio Orejarena', '1990');
-new Movies('The Dead Pool', 'Mathew Albinson', '2014');
-new Movies('Phineas y Ferb', 'Duvan Rodelo', '2021');
-new Movies('Guillame Terror', 'Jaime Blanco', '2018');
+movie1 = new Movies('Jurassic Park', 'Sergio Orejarena', '1990');
+movie2 = new Movies('The Dead Pool', 'Mathew Albinson', '2014');
+movie3 = new Movies('Phineas y Ferb', 'Duvan Rodelo', '2021');
+movie4 = new Movies('Guillame Terror', 'Jaime Blanco', '2018');
 console.log('==================== ALL MOVIES ====================\n');
 console.log(defaultMovies);
 
@@ -36,10 +36,10 @@ console.log('==================== ALL MOVIES ====================\n');
 console.log(defaultMovies);
 
 console.log('------------------------------------------------------------');
-let movie1 = Manager.getMovie('Phineas y Ferb');
-let movie2 = Manager.getMovie('Holberton School');
-const movie3 = Manager.getMovie('The Dead Pool');
-const movie4 = Manager.getMovie('The Demon Carcagi');
+movie1 = Manager.getMovie('Phineas y Ferb');
+movie2 = Manager.getMovie('Holberton School');
+movie3 = Manager.getMovie('The Dead Pool');
+movie4 = Manager.getMovie('The Demon Carcagi');
 console.log('==================== MOVIES RETURNED ====================\n');
 console.log(movie1);
 console.log(movie2);

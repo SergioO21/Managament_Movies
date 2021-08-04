@@ -28,7 +28,7 @@ class MoviesManager {
     if (index === true) {
       defaultMovies.splice(i, 1);
     } else {
-      console.log('Not exists');
+      console.log('The movie does not exists');
     }
   }
 
@@ -38,16 +38,18 @@ class MoviesManager {
         return defaultMovies[i];
       }
     }
-    new Movies(movieTitle);
-    return defaultMovies[defaultMovies.length - 1];
+    const movie = new Movies(movieTitle);
+    console.log('=====> New movie created: <=====');
+    console.log(movie);
+    return movie;
   }
 
   searchMovie (queryString) {
     const movies = defaultMovies.filter(movies => movies.title.indexOf(queryString) !== -1);
 
     if (movies.length === 0) {
-      new Movies(queryString);
-      movies.push(defaultMovies[defaultMovies.length - 1]);
+      const movie = new Movies(queryString);
+      movies.push(movie);
     }
 
     return movies;

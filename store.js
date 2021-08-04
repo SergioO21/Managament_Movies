@@ -10,6 +10,7 @@ class Movies {
     this.year = year;
 
     defaultMovies.push({ title: this.title, director: this.director, year: this.year });
+    return { title: this.title, director: this.director, year: this.year };
   }
 }
 
